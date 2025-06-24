@@ -31,3 +31,25 @@ const myFunction = function(){
 
 // For more details :  https://262.ecma-international.org/5.1/#sec-11.4.3
 
+
+// *******************************    Stack , Heap     *****************************
+// Stack (Primitive)  , Heap (Non-Primitive)
+
+let myyoutubename = "vinaykumarChauhan";
+
+let anotherName = myyoutubename;
+
+anotherName = "chaiaurcode"
+// console.log(myyoutubename);
+// console.log(anotherName);
+
+let userOne = {
+    email: "user@gmail.com",
+    upi: "user@ybl"
+}
+
+let userTwo = userOne;
+userTwo.email = "vinay@google.com";
+
+console.log(userOne.email);
+console.log(userTwo.email);
