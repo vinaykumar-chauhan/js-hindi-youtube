@@ -37,6 +37,42 @@ function addTwoNumbers(num1,num2){
     }
     
     // const logInUser = loginUserMessage("vinay");
-    const logInUser = loginUserMessage();
-    console.log(logInUser);
+    // const logInUser = loginUserMessage();
+    // console.log(logInUser);
     
+// ----------------------------------------------------------
+
+//functions with objects and arrays
+
+function calculateCartPrice(val1, val2, ...num1){                           //   Rest operator
+     return num1;
+}
+
+// console.log(calculateCartPrice(200,300,400,2000));
+
+const user = {
+    username: "vinay",
+    price: 199
+}
+
+function handleObject(anyobject){
+   console.log(`username is ${anyobject.username} and price ${anyobject.price}`);
+   
+}
+
+// handleObject(user)
+// handleObject({
+//     username: "vinay",
+//     price: 199
+// })
+
+const myNewArr = [100,200,300,400];
+
+function returnSecondValue(getarr){
+   return getarr[2];
+}
+
+// console.log(returnSecondValue(myNewArr));
+// console.log(returnSecondValue([1000,2000,3000,4000]));
+
+
