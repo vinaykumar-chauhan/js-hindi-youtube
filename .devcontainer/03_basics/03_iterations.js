@@ -72,3 +72,24 @@ do {
     // console.log(`Score is : ${score}`);
     score++;
 } while (score <= 10);
+
+
+// ------------------------------------------------------------------
+
+//  for of
+
+// ["","",""];
+// [{},{},{}];
+
+const arr = [1,2,3,4,5,6];
+
+for (const num of arr) {
+    // console.log(num);    
+}
+
+const greetins = "hello world";
+
+for (const element of greetins) {
+    // console.log(element);;
+    
+}
