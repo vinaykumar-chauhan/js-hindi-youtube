@@ -150,3 +150,44 @@ for (const key in programming) {
 
 //for-each loop
 
+const coding = ["js" , "rs" , "cpp" ,"swift", "java"];
+
+// coding.forEach((val) => {
+//     console.log(val);
+    
+// })
+
+
+// function printMe(item) {
+//     console.log(item); 
+// }
+
+// coding.forEach(printMe);
+
+
+
+// coding.forEach((val , index , arr) => {             // parameters contains : value, index , array
+//     console.log(val , index , arr);
+    
+// })
+
+
+const myCoding = [
+    {
+        languageName: "javascript",
+        languageFile: "js"
+    },
+    {
+        languageName: "java",
+        languageFile: "java"
+    },
+    {
+        languageName: "python",
+        languageFile: "py"
+    },
+]
+
+myCoding.forEach( (item) => {                              // iterate object in array
+//    console.log(item.languageName);                      
+   
+})
