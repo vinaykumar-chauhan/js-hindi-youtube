@@ -93,3 +93,60 @@ for (const element of greetins) {
     // console.log(element);;
     
 }
+
+
+// -------------------------------------------------------
+
+//  maps
+
+const map = new Map();                                 // new Map()  is not iterable
+map.set('IN' , 'India');
+map.set('USA' , 'United states of America');
+map.set('Fr' , 'France');
+
+// console.log(map);
+
+for (const key in map) {                               // new Map()  is not iterable
+    // console.log(key);
+    
+}
+
+for (const [key , value] of map) {                   // destructuring 
+    // console.log(key , ':', value);
+        
+}
+
+const myObject = {                                
+    'game1' : "NFS",
+    'game2' : "spiderman"
+}
+
+// for (const key of myObject) {                       //  object is not iterable
+//     console.log(key);
+    
+// }
+
+
+const myObj = {
+    js: "javascript",
+    cpp: "C++",
+    rb: "Ruby",
+    swift: "swift by apple"
+}
+
+for (const key in myObj) {
+    // console.log(`${key} shortcut is for ${myObj[key]}`);
+    
+}
+
+const programming = ["js" , "rs" , "cpp" ,"swift"];
+
+for (const key in programming) {
+    // console.log(programming[key]);
+    
+}
+
+//------------------------------------------------------
+
+//for-each loop
+
